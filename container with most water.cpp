@@ -12,7 +12,7 @@ class Solution{
             int currentArea=midHeight*width;
             maxArea=max(maxArea,currentArea);
 
-            if(height[left]<heightpright){
+            if(height[left]<height[right]){
                 left++;
             }
             else{

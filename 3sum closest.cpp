@@ -11,7 +11,7 @@ class Solution{
             while(start<end){
                 int sum=nums[i]+nums[j]+nums[k];
 
-                if(abs(sum-target)<abd(closestSum-target)){
+                if(abs(sum-target)<abs(closestSum-target)){
                     closestSum=sum;
                 }
                 else if(sum<target){
