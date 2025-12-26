@@ -5,7 +5,7 @@ class Solution{
             return;
         }
         if(result.size()==lelel){
-            result.push_back({});
+            result.push_back({};);
         }
         result[level].push_back(root->data);
         levelOrder(root->left,level+1,result);
